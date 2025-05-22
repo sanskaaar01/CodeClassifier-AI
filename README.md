@@ -40,8 +40,11 @@ This is a simple project that looks at how popular different programming languag
    pip install pandas matplotlib seaborn jupyter
 
 
-Open the notebook:jupyter notebook yo.ipynb
+## Run all cells and view the analysis
 
+## 📌 Project Status
+✅ Completed basic EDA  
+🔜 Plan to improve with interactive charts (Plotly)
 
-
-Run the cells one by one to see the results.
+## 📧 Contact
+Feel free to connect or collaborate: [bhoslesanskar@gmail.com // www.linkedin.com/in/sanskar-bhosle]
