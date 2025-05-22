@@ -1,50 +1,38 @@
-# 📊 Programming Language Popularity Analysis
+# Programming Language Detection from Code Snippets using ML
 
-This is a simple project that looks at how popular different programming languages are over time. I used a dataset, cleaned it up, and created some cool charts using Python.
-
----
-
-## 🧠 What This Project Does
-
-- Loads a dataset with info about programming languages
-- Cleans and organizes the data
-- Shows trends and comparisons using graphs
-- Helps you understand which languages are most used and growing
+## Project Overview  
+This project generates 250+ synthetic code snippets across several popular programming languages and trains a machine learning classifier to predict the language of any given code snippet. It uses NLP techniques like CountVectorizer combined with logistic regression for effective classification.
 
 ---
 
-## 📁 Files in This Project
-
-- `yo.ipynb` → The main Jupyter Notebook with all the code and charts
-- `programming_language_dataset.csv` → The data used for analysis
-
----
-
-## 🛠 Tools Used
-
-- Python
-- Jupyter Notebook
-- Pandas (for data handling)
-- Matplotlib & Seaborn (for graphs)
+## Features  
+- Automatic generation of diverse, realistic code snippets using randomized templates  
+- Multi-language support: Python, C, Java, JavaScript, CSS  
+- NLP-based feature extraction with CountVectorizer  
+- Logistic Regression classifier for language detection  
+- Easily extendable framework for adding more languages and templates  
 
 ---
 
-## 🚀 How to Run This
+## Dataset  
+The dataset consists of 250+ synthetically generated code snippets per language, created using template patterns with random variables such as numbers, colors, and function names to simulate realistic code samples.
 
-1. Download or clone this project to your computer.
-2. Make sure Python is installed.
-3. Open a terminal or command prompt.
-4. Install the required libraries by running:
+---
 
-   ```bash
-   pip install pandas matplotlib seaborn jupyter
+## Model Training & Evaluation  
+- The text data is vectorized using CountVectorizer to extract meaningful features.  
+- Logistic Regression is trained on the vectorized snippets to learn language-specific patterns.  
+- The model’s accuracy and performance metrics are evaluated on a test set of unseen code snippets.
 
+---
 
-## Run all cells and view the analysis
+## How It Works  
+1. Generate synthetic code snippets for each supported language.  
+2. Vectorize snippets with CountVectorizer for NLP feature extraction.  
+3. Train the Logistic Regression classifier on the dataset.  
+4. Use the trained model to predict the language of new code snippets.
 
-## 📌 Project Status
-✅ Completed basic EDA  
-🔜 Plan to improve with interactive charts (Plotly)
+---
 
-## 📧 Contact
+# 📧 Contact
 Feel free to connect or collaborate: [bhoslesanskar@gmail.com // www.linkedin.com/in/sanskar-bhosle]
